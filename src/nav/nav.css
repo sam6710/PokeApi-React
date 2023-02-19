@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&display=swap');
+nav a{
+    text-decoration: none;
+    font-family: 'Gajraj One', cursive;
+    font-size: 1.5rem;
+}
+#PokeLogo{
+    width: 100%;
+    margin: 0.2rem;
+}
+#PokeLogoA{
+    width: 10%;
+}

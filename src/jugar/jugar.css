@@ -1,0 +1,45 @@
+#acierto{
+    display: none;
+    background-color: lime;
+    width: 22%;
+    height: 3rem;
+    margin-left: 39%;
+    border: 2px solid wheat;
+    border-radius: 0.6rem;
+    padding-top: 0.4rem;
+    margin-top: 1.1rem;
+    margin-bottom: 2rem;
+}
+#fallo{
+    display: none;
+    background-color: red;
+    width: 22%;
+    height: 3rem;
+    margin-left: 39%;
+    border: 2px solid wheat;
+    border-radius: 0.6rem;
+    padding-top: 0.4rem;
+    margin-top: 1.1rem;
+    margin-bottom: 2rem;
+}
+#pokemon_juego{
+    width: 30%;
+    margin-left: 35%;
+    border: 3px solid lightblue;
+    background: blue;
+    margin-top: 2rem;
+    color: white;
+}
+#tipos_acertar{
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+}
+#tipos_acertar button{
+    background-color: lightblue;
+    color: black;
+}
+#refresh{
+    margin-bottom: 2rem;
+    background-color: lightblue;
+    color: black;
+}

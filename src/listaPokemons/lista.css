@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+button{
+    width: 30%;
+    background-color: salmon;
+    border-radius: 0.2rem;
+    border-color: white;
+    margin-bottom: 0.2rem;
+    color: white;
+}
+#seccion_lista{
+    margin-bottom: 1rem;
+}
+#seccion_lista h1{
+    font-family: 'Gajraj One', cursive;
+}

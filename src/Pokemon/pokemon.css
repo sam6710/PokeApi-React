@@ -1,0 +1,23 @@
+#pokemon{
+    width: 30%;
+    border: 2px solid salmon;
+    background: wheat;
+}
+#tipos{
+    display: flex;
+    flex-direction: column;
+}
+h5{
+    margin: 0;
+}
+span{
+    margin-bottom: 0.2rem;
+}
+#habilidades{
+    display: flex;
+    flex-direction: column;
+}
+#stats{
+    display: flex;
+    flex-direction: column;
+}
