@@ -30,16 +30,22 @@
     margin-top: 2rem;
     color: white;
 }
+#pokemon_juego img{
+    width: 39.75%;
+    height: 65,7%;
+}
 #tipos_acertar{
     margin-top: 1.2rem;
     margin-bottom: 1rem;
 }
 #tipos_acertar button{
-    background-color: lightblue;
+    background-color: rgb(50, 182, 222);
     color: black;
 }
 #refresh{
     margin-bottom: 2rem;
-    background-color: lightblue;
-    color: black;
+    background-color: blue;
+    color: white;
+    border: 2px solid lightblue;
+    height: 2.4rem;
 }

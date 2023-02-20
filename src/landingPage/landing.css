@@ -19,6 +19,7 @@ h1{
     background-image: url("../imagenes/pokeball-fondo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 #PokePage h2{
     padding-bottom: 0.8rem;
@@ -27,7 +28,7 @@ h1{
     width: 80%;
     margin-left: 10%;
     color: white;
-    padding-top: 14rem;
+    padding-top: 15rem;
 }
 #section_final{
     padding-bottom: 2rem;

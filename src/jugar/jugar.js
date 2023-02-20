@@ -5,6 +5,7 @@ function Jugar(){
 
     const [pokemon, setPokemon] = useState([]);
     const [pokeTypes, setPokeTypes] = useState([]);
+    const [imagen, setImagen] = useState([]);
 
     useEffect(() => RandomNum(1, 1008),[])
 
@@ -19,6 +20,7 @@ function Jugar(){
             .then((datosPokemon) => {
                 setPokemon(datosPokemon)
                 setPokeTypes(datosPokemon.types)
+                setImagen(datosPokemon.sprites.front_default)
                 // console.log(datosPokemon)
                 // setlistaDefinitiva(listaDefinitiva.concat(pokemon))    
                 // console.log(listaDefinitiva)
@@ -26,7 +28,7 @@ function Jugar(){
     }
 
     function comprobar(e, tipo){
-        if(tipo == pokemon.types[0].type.name || tipo == pokemon.types[1].type.name){
+        if(tipo == pokemon.types[0].type.name || tipo == pokemon.types[1]?.type.name){
             console.log("¡Has acertado!")
             document.getElementById("acierto").style.display = "block";
             document.getElementById("fallo").style.display = "none";
@@ -50,8 +52,7 @@ function Jugar(){
             <div>
                 <div>
                     <div id="pokemon_juego">
-                        <p>Aquí debería salir la imagen si a la Api le apeteciera.</p>
-                        {/* <img src={pokemon?.sprites.front_default} alt={pokemon?.name} /> */}
+                        <img src={imagen} alt={pokemon?.name} />
                         <h3>{pokemon?.name}</h3>
                     </div>
                 </div>
